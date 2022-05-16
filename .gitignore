@@ -22,8 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.env*
 
 # yarn v2
+.yarn
 .yarn/*
 !.yarn/cache # Uncomment for zero-install
 !.yarn/releases
@@ -31,3 +33,4 @@ dist-ssr
 !.yarn/sdks
 !.yarn/versions
 .pnp.* # Comment for zero-install
+yarn.lock
