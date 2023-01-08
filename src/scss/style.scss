@@ -1,5 +1,8 @@
-@import "./include/normalize";
-@import "./include/main";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "./include/token";
+// @import "./include/normalize";
+// @import "./include/main";
+
 @import "./include/custom";
